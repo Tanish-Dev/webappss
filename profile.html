@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
+    />
+
+    <style>
+      @font-face {
+        :font-family: "SF Pro Text";
+        src: url("FontsFree-Net-SFProText-Semibold.ttf");
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <div class="status-bar2">
+        <img class="ui-icon2" alt="" src="./public/ui@2x.png" />
+
+        <div class="time4">
+          <div class="time5">9:27</div>
+        </div>
+      </div>
+      <div class="profile1">profile</div>
+      <div class="profile-child"></div>
+      <img
+        class="icon-home"
+        alt=""
+        src="./public/-icon-home@2x.png"
+        id="iconHome"
+      />
+
+      <img class="icon-mail" alt="" src="./public/-icon-mail@2x.png" />
+
+      <img class="icon-person" alt="" src="./public/-icon-person@2x.png" />
+
+      <img
+        class="group-icon"
+        alt=""
+        src="public/Screenshot 2023-12-24 at 16.30.43.png"
+        id="groupIcon"
+      />
+
+      <img class="download-2-icon" alt="" src="./public/download-2@2x.png" />
+    </div>
+
+    <script>
+      var iconHome = document.getElementById("iconHome");
+      if (iconHome) {
+        iconHome.addEventListener("click", function (e) {
+          window.location.href = "./dash.html";
+        });
+      }
+
+      var groupIcon = document.getElementById("groupIcon");
+      if (groupIcon) {
+        groupIcon.addEventListener("click", function (e) {
+          window.location.href = "./chat.html";
+        });
+      }
+    </script>
+  </body>
+</html>

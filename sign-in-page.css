@@ -1,0 +1,175 @@
+.welcome {
+  position: absolute;
+  top: 195px;
+  left: 37px;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  color: var(--color-black);
+}
+.sign-in-page-child {
+  position: absolute;
+  top: 294px;
+  left: 40px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-whitesmoke-100);
+  width: 309px;
+  height: 54px;
+}
+.field-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-whitesmoke-100);
+  width: 309px;
+  height: 54px;
+  border-color: black;
+  border: 2px;
+}
+.enter-name {
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  font-weight: 600;
+}
+.field {
+  position: absolute;
+  top: 294px;
+  left: 40px;
+  width: 309px;
+  height: 54px;
+}
+.field1 {
+  position: absolute;
+  top: 570px;
+  left: 37px;
+  width: 309px;
+  height: 54px;
+}
+.field2 {
+  position: absolute;
+  top: 363px;
+  left: 40px;
+  width: 309px;
+  height: 54px;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 306px;
+  left: -122px;
+  width: 176px;
+  height: 157px;
+  object-fit: cover;
+}
+.vector-icon2 {
+  position: absolute;
+  top: 240px;
+  left: -185px;
+  width: 183px;
+  height: 207px;
+  object-fit: cover;
+}
+.field3 {
+  position: absolute;
+  top: 432px;
+  left: 40px;
+  width: 309px;
+  height: 54px;
+}
+.field4 {
+  position: absolute;
+  top: 501px;
+  left: 40px;
+  width: 309px;
+  height: 54px;
+}
+.already-an-existing {
+  position: absolute;
+  top: 743px;
+  left: 123px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-steelblue);
+  cursor: pointer;
+}
+.login-item {
+  position: absolute;
+  top: 0px;
+  left: -25px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-crimson-200);
+  width: 232px;
+  height: 41px;
+}
+.create-account {
+  position: absolute;
+  top: 9px;
+  left: 22px;
+  font-weight: 600;
+}
+.login1 {
+  position: absolute;
+  top: 678px;
+  left: 104px;
+  width: 182px;
+  height: 39px;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.ui-icon6 {
+  position: absolute;
+  top: 15px;
+  right: 14px;
+  width: 68px;
+  height: 16px;
+  object-fit: cover;
+}
+.time13 {
+  position: absolute;
+  width: calc(100% - 2px);
+  top: calc(50% - 5.5px);
+  left: 0.3px;
+  letter-spacing: -0.33px;
+  font-weight: 600;
+  display: inline-block;
+}
+.time12 {
+  position: absolute;
+  top: 8px;
+  left: 21px;
+  width: 56px;
+  height: 23px;
+}
+.status-bar6 {
+  position: absolute;
+  width: 100%;
+  top: 12px;
+  right: 0px;
+  left: 0px;
+  height: 43px;
+  text-align: center;
+  color: var(--color-black);
+  font-family: var(--font-sf-pro-text);
+  display: none;
+}
+.d936ea919eb1658402538-1-icon {
+  position: absolute;
+  top: 105px;
+  left: 40px;
+  width: 220px;
+  height: 63px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sign-in-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 852px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-inter);
+}

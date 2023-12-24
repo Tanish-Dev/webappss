@@ -1,0 +1,125 @@
+.ui-icon3 {
+  position: absolute;
+  top: 15px;
+  right: 14px;
+  width: 68px;
+  height: 16px;
+  object-fit: cover;
+}
+.time7 {
+  position: absolute;
+  width: calc(100% - 2px);
+  top: calc(50% - 5.5px);
+  left: 0.3px;
+  letter-spacing: -0.33px;
+  font-weight: 600;
+  display: inline-block;
+}
+.time6 {
+  position: absolute;
+  top: 8px;
+  left: 21px;
+  width: 56px;
+  height: 23px;
+}
+.status-bar3 {
+  position: absolute;
+  width: 100%;
+  top: 12px;
+  right: 0px;
+  left: 0px;
+  height: 43px;
+  display: none;
+}
+.inbox1 {
+  position: absolute;
+  top: 402px;
+  left: 138px;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  text-align: left;
+}
+.inbox-child {
+  position: absolute;
+  top: 777px;
+  left: 0px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  box-shadow: 0px 4px 19.1px 1.5px rgba(0, 0, 0, 0.25);
+  width: 393px;
+  height: 75px;
+}
+.icon-home1 {
+  position: absolute;
+  height: 3.17%;
+  width: 6.87%;
+  top: 94.01%;
+  right: 76.34%;
+  bottom: 2.82%;
+  left: 16.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.icon-mail1 {
+  position: absolute;
+  height: 3.29%;
+  width: 7.12%;
+  top: 94.01%;
+  right: 37.66%;
+  bottom: 2.7%;
+  left: 55.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon-person1 {
+  position: absolute;
+  height: 3.29%;
+  width: 7.12%;
+  top: 94.01%;
+  right: 16.79%;
+  bottom: 2.7%;
+  left: 76.08%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-icon1 {
+  position: absolute;
+  height: 2.82%;
+  width: 6.34%;
+  top: 94.25%;
+  right: 58.55%;
+  bottom: 2.93%;
+  left: 35.11%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.download-2-icon1 {
+  position: absolute;
+  top: 304px;
+  left: 156px;
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+}
+.inbox {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 852px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-sf-pro-text);
+}

@@ -1,0 +1,295 @@
+.dash-child {
+  position: absolute;
+  top: 279px;
+  left: 0px;
+  border-radius: var(--br-6xl) var(--br-6xl) 0px 0px;
+  background-color: var(--color-white);
+  border: 0.2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 393px;
+  height: 575px;
+  max-width: 400px;
+}
+.dash-item {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-white);
+  width: 393px;
+  height: 293px;
+}
+.dash-inner {
+  position: absolute;
+  top: 264px;
+  left: 1px;
+  border-radius: 28px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 4px 28.8px 5px rgba(0, 0, 0, 0.15);
+  width: 393px;
+  height: 171px;
+}
+.dash-child1 {
+  position: absolute;
+  top: 333px;
+  left: 1px;
+  border-radius: var(--br-19xl);
+  background-color: var(--color-white);
+  box-shadow: 0px -1px 17.4px -7px rgba(0, 0, 0, 0.25);
+  width: 393px;
+  height: 567px;
+}
+.pinned2 {
+  position: absolute;
+  top: 351px;
+  left: 47px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray-100);
+}
+.fluent-mdl2pinned-solid-icon1 {
+  position: absolute;
+  top: 354px;
+  left: 95px;
+  width: 9px;
+  height: 9px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.dash-child2 {
+  position: absolute;
+  top: 567px;
+  left: 18px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-crimson-100);
+  width: 359px;
+  height: 90px;
+}
+.dash-child3 {
+  position: absolute;
+  top: 659px;
+  left: 18px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-steelblue);
+  width: 359px;
+  height: 90px;
+}
+.dash-child4 {
+  position: absolute;
+  top: 475px;
+  left: 18px;
+  border-radius: var(--br-xl);
+  background-color: #ffdc5f;
+  width: 359px;
+  height: 90px;
+}
+.dash-child5 {
+  position: absolute;
+  top: 383px;
+  left: 18px;
+  border-radius: var(--br-xl);
+  background-color: rgba(234, 234, 234, 0.73);
+  width: 359px;
+  height: 90px;
+}
+.ui-icon5 {
+  position: absolute;
+  top: 15px;
+  right: 14px;
+  width: 68px;
+  height: 16px;
+  object-fit: cover;
+}
+.time11 {
+  position: absolute;
+  width: calc(100% - 2px);
+  top: calc(50% - 5.5px);
+  left: 0.3px;
+  letter-spacing: -0.33px;
+  font-weight: 600;
+  display: inline-block;
+}
+.time10 {
+  position: absolute;
+  top: 8px;
+  left: 21px;
+  width: 56px;
+  height: 23px;
+}
+.status-bar5 {
+  position: absolute;
+  width: 100%;
+  top: 12px;
+  right: 0px;
+  left: 0px;
+  height: 43px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  font-family: var(--font-sf-pro-text);
+}
+.tanish-bhavsar1 {
+  position: absolute;
+  top: 159px;
+  left: 50px;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+}
+.fy-integrated-ai {
+  position: absolute;
+  top: 215px;
+  left: 135px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+}
+.chat2 {
+  position: absolute;
+  top: 403px;
+  left: 44px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.78);
+}
+.examination {
+  position: absolute;
+  top: 587px;
+  left: 44px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.messages {
+  position: absolute;
+  top: 679px;
+  left: 44px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.attendance {
+  position: absolute;
+  top: 495px;
+  left: 44px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.dash-child6 {
+  position: absolute;
+  top: 777px;
+  left: 18px;
+  border-radius: 40px;
+  background-color: var(--color-white);
+  box-shadow: 0px 4px 19.1px 1.5px rgba(0, 0, 0, 0.25);
+  width: 359px;
+  height: 62px;
+}
+.icon-home3 {
+  position: absolute;
+  height: 3.17%;
+  width: 6.87%;
+  top: 93.19%;
+  right: 76.08%;
+  bottom: 3.64%;
+  left: 17.05%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.icon-mail3 {
+  position: absolute;
+  height: 3.29%;
+  width: 7.12%;
+  top: 93.19%;
+  right: 37.4%;
+  bottom: 3.52%;
+  left: 55.47%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.academics {
+  position: absolute;
+  top: 282px;
+  left: 136px;
+  font-size: 22px;
+  color: #393939;
+}
+.button-icon {
+  position: absolute;
+  top: 410px;
+  left: 321px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.button-icon1 {
+  position: absolute;
+  top: 502px;
+  left: 321px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.button-icon2 {
+  position: absolute;
+  top: 686px;
+  left: 321px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.button-icon3 {
+  position: absolute;
+  top: 594px;
+  left: 320px;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.icon-person3 {
+  position: absolute;
+  height: 3.29%;
+  width: 7.12%;
+  top: 93.19%;
+  right: 16.54%;
+  bottom: 3.52%;
+  left: 76.34%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.group-icon4 {
+  position: absolute;
+  height: 2.82%;
+  width: 6.34%;
+  top: 93.43%;
+  right: 58.3%;
+  bottom: 3.76%;
+  left: 35.37%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.download-2-icon2 {
+  position: absolute;
+  top: 78px;
+  left: 163px;
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.dash {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 852px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

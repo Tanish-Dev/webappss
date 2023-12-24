@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-sf-pro-text: "SF Pro Text";
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-5xs: 8px;
+  --font-size-3xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-mini: 15px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+  --font-size-31xl: 50px;
+
+  /* Colors */
+  --color-gainsboro-100: #e3e5e7;
+  --color-gainsboro-200: #d9d9d9;
+  --color-gainsboro-300: rgba(217, 217, 217, 0);
+  --color-mediumseagreen: #72b867;
+  --color-white: #fff;
+  --color-dimgray-100: #646464;
+  --color-dimgray-200: #636363;
+  --color-royalblue: #486df9;
+  --color-silver-100: #c4c4c4;
+  --color-silver-200: rgba(186, 186, 186, 0.5);
+  --color-darkgray-100: #9b9da0;
+  --color-whitesmoke-100: #f3f3f3;
+  --color-black: #000;
+  --color-crimson-100: #e2423f;
+  --color-crimson-200: #d12b2f;
+  --color-gray-100: #808080;
+  --color-gray-200: #232323;
+  --color-steelblue: rgba(3, 100, 169, 0.91);
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-19xl: 38px;
+  --br-xl: 20px;
+  --br-7xs: 6px;
+  --br-5xl: 24px;
+  --br-6xl: 25px;
+  --br-10xs: 3px;
+}

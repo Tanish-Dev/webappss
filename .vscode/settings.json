@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project_name": "MIT Connect",
+    "id": "6587e427c259f986228dce1e",
+    "framework": "html-css",
+    "typescript": false,
+    "path": "public/",
+    "componentsPath": "/Users/Tanish/webappss/src/components",
+    "screensPath": "/Users/Tanish/webappss/src/pages",
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Kebab Case"
+  }
+}
