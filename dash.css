@@ -179,12 +179,12 @@
 }
 .icon-home3 {
   position: absolute;
-  height: 3.17%;
-  width: 6.87%;
+  height: 30px;
+  width: 30px;
   top: 93.19%;
   right: 76.08%;
   bottom: 3.64%;
-  left: 17.05%;
+  left: 62px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -192,12 +192,12 @@
 }
 .icon-mail3 {
   position: absolute;
-  height: 3.29%;
-  width: 7.12%;
+  height: 30px;
+  width: 30px;
   top: 93.19%;
   right: 37.4%;
   bottom: 3.52%;
-  left: 55.47%;
+  left: 215px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -261,13 +261,12 @@
 }
 .group-icon4 {
   position: absolute;
-  height: 2.82%;
-  width: 6.34%;
+  height: 24px%;
+  width: 24px;
   top: 93.43%;
   right: 58.3%;
   bottom: 3.76%;
-  left: 35.37%;
-  max-width: 100%;
+  left: 140px;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;

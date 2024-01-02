@@ -24,37 +24,39 @@
     </style>
   </head>
   <body>
-    <div class="start">
-      <div class="start-child"></div>
-      <img class="mit-wpu-1-1-icon" alt="" src="./public/mitwpu1-1@2x.png" />
+    <div class="main">
+      <div class="start">
+        <div class="start-child"></div>
+        <img class="mit-wpu-1-1-icon" alt="" src="./public/mitwpu1-1@2x.png" />
 
-      <div class="start-item"></div>
-      <div class="login-now" id="loginNowText">Login Now</div>
-      <div class="start-connecting-with">
-        Start connecting with Your Teachers
+        <div class="start-item"></div>
+        <div class="login-now" id="loginNowText">Login Now</div>
+        <div class="start-connecting-with">
+          Start connecting with Your Teachers
+        </div>
+        <div class="join-the-virtual">Join the virtual campus now !</div>
+        <div class="login" id="loginContainer">
+          <div class="login-child"></div>
+          <div class="get-started">Get Started</div>
+        </div>
+        <img class="mit-logo-1-icon" alt="" src="./public/mit-logo-1@2x.png" />
       </div>
-      <div class="join-the-virtual">Join the virtual campus now !</div>
-      <div class="login" id="loginContainer">
-        <div class="login-child"></div>
-        <div class="get-started">Get Started</div>
-      </div>
-      <img class="mit-logo-1-icon" alt="" src="./public/mit-logo-1@2x.png" />
+
+      <script>
+        var loginNowText = document.getElementById("loginNowText");
+        if (loginNowText) {
+          loginNowText.addEventListener("click", function (e) {
+            window.location.href = "./login-page.html";
+          });
+        }
+
+        var loginContainer = document.getElementById("loginContainer");
+        if (loginContainer) {
+          loginContainer.addEventListener("click", function (e) {
+            window.location.href = "./sign-in-page.html";
+          });
+        }
+      </script>
     </div>
-
-    <script>
-      var loginNowText = document.getElementById("loginNowText");
-      if (loginNowText) {
-        loginNowText.addEventListener("click", function (e) {
-          window.location.href = "./login-page.html";
-        });
-      }
-
-      var loginContainer = document.getElementById("loginContainer");
-      if (loginContainer) {
-        loginContainer.addEventListener("click", function (e) {
-          window.location.href = "./sign-in-page.html";
-        });
-      }
-    </script>
   </body>
 </html>
