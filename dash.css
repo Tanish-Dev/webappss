@@ -8,7 +8,6 @@
   top: 279px;
   border-radius: var(--br-6xl) var(--br-6xl) 0px 0px;
   background-color: var(--color-white);
-  border: 0.2px solid var(--color-black);
   box-sizing: border-box;
   width: 393px;
   height: 575px;
@@ -38,6 +37,7 @@
   box-shadow: 0px -1px 17.4px -7px rgba(0, 0, 0, 0.25);
   width: 393px;
   height: 567px;
+  left: 0px;
 }
 .pinned2 {
   position: absolute;
@@ -182,9 +182,8 @@
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 93.19%;
   right: 76.08%;
-  bottom: 3.64%;
+  top: 24%;
   left: 62px;
   max-width: 100%;
   overflow: hidden;
@@ -195,9 +194,8 @@
   position: absolute;
   height: 30px;
   width: 30px;
-  top: 93.19%;
+  top: 24%;
   right: 37.4%;
-  bottom: 3.52%;
   left: 215px;
   max-width: 100%;
   overflow: hidden;
@@ -250,9 +248,8 @@
   position: absolute;
   height: 3.29%;
   width: 7.12%;
-  top: 93.19%;
+  top: 24%;
   right: 16.54%;
-  bottom: 3.52%;
   left: 76.34%;
   max-width: 100%;
   overflow: hidden;
@@ -264,9 +261,9 @@
   position: absolute;
   height: 24px;
   width: 24px;
-  top: 93.43%;
+  top: 30%;
   right: 58.3%;
-  bottom: 3.76%;
+
   left: 140px;
   overflow: hidden;
   max-height: 100%;
