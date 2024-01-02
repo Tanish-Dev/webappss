@@ -24,74 +24,76 @@
     </style>
   </head>
   <body>
-    <div class="sign-in-page">
-      <div class="welcome">Welcome</div>
-      <div class="sign-in-page-child"></div>
-      <div class="field">
-        <div class="field-child"></div>
-        <div class="enter-name">Enter Name</div>
-      </div>
-      <div class="field1">
-        <div class="field-child"></div>
-        <div class="enter-name">Course Name</div>
-      </div>
-      <div class="field2">
-        <div class="field-child"></div>
-        <div class="enter-name">Email Address</div>
-      </div>
-      <div class="field3">
-        <div class="field-child"></div>
-        <div class="enter-name">Enter Mobile Number</div>
-      </div>
-      <div class="field4">
-        <div class="field-child"></div>
-        <div class="enter-name">PRN number</div>
-      </div>
-      <div class="already-an-existing" id="alreadyAnExisting">
-        Already an existing user?
-      </div>
-      <div class="login1" id="loginContainer">
-        <div class="login-item"></div>
-        <div class="create-account">Create Account</div>
-      </div>
-      <div class="status-bar6">
-        <img class="ui-icon6" alt="" src="./public/ui@2x.png" />
-
-        <div class="time12">
-          <div class="time13">9:27</div>
+    <div class="container">
+      <div class="sign-in-page">
+        <div class="welcome">Welcome</div>
+        <div class="sign-in-page-child"></div>
+        <div class="field">
+          <div class="field-child"></div>
+          <div class="enter-name">Enter Name</div>
         </div>
+        <div class="field1">
+          <div class="field-child"></div>
+          <div class="enter-name">Course Name</div>
+        </div>
+        <div class="field2">
+          <div class="field-child"></div>
+          <div class="enter-name">Email Address</div>
+        </div>
+        <div class="field3">
+          <div class="field-child"></div>
+          <div class="enter-name">Enter Mobile Number</div>
+        </div>
+        <div class="field4">
+          <div class="field-child"></div>
+          <div class="enter-name">PRN number</div>
+        </div>
+        <div class="already-an-existing" id="alreadyAnExisting">
+          Already an existing user?
+        </div>
+        <div class="login1" id="loginContainer">
+          <div class="login-item"></div>
+          <div class="create-account">Create Account</div>
+        </div>
+        <div class="status-bar6">
+          <img class="ui-icon6" alt="" src="./public/ui@2x.png" />
+
+          <div class="time12">
+            <div class="time13">9:27</div>
+          </div>
+        </div>
+        <img
+          class="d936ea919eb1658402538-1-icon"
+          alt=""
+          src="./public/62d936ea919eb1658402538-1@2x.png"
+          id="d936ea919eb16584025381Image"
+        />
       </div>
-      <img
-        class="d936ea919eb1658402538-1-icon"
-        alt=""
-        src="./public/62d936ea919eb1658402538-1@2x.png"
-        id="d936ea919eb16584025381Image"
-      />
+
+      <script>
+        var alreadyAnExisting = document.getElementById("alreadyAnExisting");
+        if (alreadyAnExisting) {
+          alreadyAnExisting.addEventListener("click", function (e) {
+            window.location.href = "./login-page.html";
+          });
+        }
+
+        var loginContainer = document.getElementById("loginContainer");
+        if (loginContainer) {
+          loginContainer.addEventListener("click", function (e) {
+            window.location.href = "./dash.html";
+          });
+        }
+
+        var d936ea919eb16584025381Image = document.getElementById(
+          "d936ea919eb16584025381Image"
+        );
+        if (d936ea919eb16584025381Image) {
+          d936ea919eb16584025381Image.addEventListener("click", function (e) {
+            window.location.href = "./index.html";
+          });
+        }
+      </script>
     </div>
-
-    <script>
-      var alreadyAnExisting = document.getElementById("alreadyAnExisting");
-      if (alreadyAnExisting) {
-        alreadyAnExisting.addEventListener("click", function (e) {
-          window.location.href = "./login-page.html";
-        });
-      }
-
-      var loginContainer = document.getElementById("loginContainer");
-      if (loginContainer) {
-        loginContainer.addEventListener("click", function (e) {
-          window.location.href = "./dash.html";
-        });
-      }
-
-      var d936ea919eb16584025381Image = document.getElementById(
-        "d936ea919eb16584025381Image"
-      );
-      if (d936ea919eb16584025381Image) {
-        d936ea919eb16584025381Image.addEventListener("click", function (e) {
-          window.location.href = "./index.html";
-        });
-      }
-    </script>
   </body>
 </html>

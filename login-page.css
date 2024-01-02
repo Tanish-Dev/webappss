@@ -1,3 +1,8 @@
+body {
+  max-width: 390px;
+  max-height: 900px;
+  margin: auto;
+}
 .hey {
   margin: 0;
 }

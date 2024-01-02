@@ -17,129 +17,131 @@
 
     <style>
       @font-face {
-        :font-family: "SF Pro Text";
+        font-family: "SF Pro Text";
         src: url("FontsFree-Net-SFProText-Semibold.ttf");
         font-weight: 600;
       }
     </style>
   </head>
   <body>
-    <div class="dash">
-      <div class="dash-child"></div>
-      <div class="dash-item"></div>
-      <div class="dash-inner"></div>
-      <div class="dash-child1"></div>
-      <b class="pinned2">Pinned</b>
-      <img
-        class="fluent-mdl2pinned-solid-icon1"
-        alt=""
-        src="./public/fluentmdl2pinnedsolid@2x.png"
-      />
+    <div class="container">
+      <div class="dash">
+        <div class="dash-child"></div>
+        <div class="dash-item"></div>
+        <div class="dash-inner"></div>
+        <div class="dash-child1"></div>
+        <b class="pinned2">Pinned</b>
+        <img
+          class="fluent-mdl2pinned-solid-icon1"
+          alt=""
+          src="./public/fluentmdl2pinnedsolid@2x.png"
+        />
 
-      <div class="dash-child2"></div>
-      <div class="dash-child3"></div>
-      <div class="dash-child4"></div>
-      <div class="dash-child5"></div>
+        <div class="dash-child2"></div>
+        <div class="dash-child3"></div>
+        <div class="dash-child4"></div>
+        <div class="dash-child5"></div>
 
-      <div class="tanish-bhavsar1">Tanish Bhavsar</div>
-      <div class="fy-integrated-ai">FY integrated Ai + Ds</div>
-      <div class="chat2">Chat</div>
-      <div class="examination">Examination</div>
-      <div class="messages">Messages</div>
-      <div class="attendance">Attendance</div>
-      <div class="dash-child6"></div>
-      <img class="icon-home3" alt="" src="./public/-icon-home@2x.png" />
+        <div class="tanish-bhavsar1">Tanish Bhavsar</div>
+        <div class="fy-integrated-ai">FY integrated Ai + Ds</div>
+        <div class="chat2">Chat</div>
+        <div class="examination">Examination</div>
+        <div class="messages">Messages</div>
+        <div class="attendance">Attendance</div>
+        <div class="dash-child6"></div>
+        <img class="icon-home3" alt="" src="./public/-icon-home@2x.png" />
 
-      <img
-        class="icon-mail3"
-        alt=""
-        src="./public/-icon-mail@2x.png"
-        id="iconMail"
-      />
+        <img
+          class="icon-mail3"
+          alt=""
+          src="./public/-icon-mail@2x.png"
+          id="iconMail"
+        />
 
-      <b class="academics">Academics</b>
-      <img
-        class="button-icon"
-        alt=""
-        src="./public/button@2x.png"
-        id="buttonIcon"
-      />
+        <b class="academics">Academics</b>
+        <img
+          class="button-icon"
+          alt=""
+          src="./public/button@2x.png"
+          id="buttonIcon"
+        />
 
-      <img class="button-icon1" alt="" src="./public/button@2x.png" />
+        <img class="button-icon1" alt="" src="./public/button@2x.png" />
 
-      <img
-        class="button-icon2"
-        alt=""
-        src="./public/button@2x.png"
-        id="buttonIcon2"
-      />
+        <img
+          class="button-icon2"
+          alt=""
+          src="./public/button@2x.png"
+          id="buttonIcon2"
+        />
 
-      <img class="button-icon3" alt="" src="./public/button@2x.png" />
+        <img class="button-icon3" alt="" src="./public/button@2x.png" />
 
-      <img
-        class="icon-person3"
-        alt=""
-        src="./public/-icon-person@2x.png"
-        id="iconPerson"
-      />
+        <img
+          class="icon-person3"
+          alt=""
+          src="./public/-icon-person@2x.png"
+          id="iconPerson"
+        />
 
-      <img
-        class="group-icon4"
-        alt=""
-        src="public/Screenshot 2023-12-24 at 16.30.43.png"
-        id="groupIcon"
-      />
+        <img
+          class="group-icon4"
+          alt=""
+          src="public/Screenshot 2023-12-24 at 16.30.43.png"
+          id="groupIcon"
+        />
 
-      <img
-        class="download-2-icon2"
-        alt=""
-        src="./public/download-2@2x.png"
-        id="download2Image"
-      />
+        <img
+          class="download-2-icon2"
+          alt=""
+          src="./public/download-2@2x.png"
+          id="download2Image"
+        />
+      </div>
+
+      <script>
+        var iconMail = document.getElementById("iconMail");
+        if (iconMail) {
+          iconMail.addEventListener("click", function (e) {
+            window.location.href = "./inbox.html";
+          });
+        }
+
+        var buttonIcon = document.getElementById("buttonIcon");
+        if (buttonIcon) {
+          buttonIcon.addEventListener("click", function (e) {
+            window.location.href = "./chat.html";
+          });
+        }
+
+        var buttonIcon2 = document.getElementById("buttonIcon2");
+        if (buttonIcon2) {
+          buttonIcon2.addEventListener("click", function (e) {
+            window.location.href = "./inbox.html";
+          });
+        }
+
+        var iconPerson = document.getElementById("iconPerson");
+        if (iconPerson) {
+          iconPerson.addEventListener("click", function (e) {
+            window.location.href = "./profile.html";
+          });
+        }
+
+        var groupIcon = document.getElementById("groupIcon");
+        if (groupIcon) {
+          groupIcon.addEventListener("click", function (e) {
+            window.location.href = "./chat.html";
+          });
+        }
+
+        var download2Image = document.getElementById("download2Image");
+        if (download2Image) {
+          download2Image.addEventListener("click", function (e) {
+            window.location.href = "./index.html";
+          });
+        }
+      </script>
     </div>
-
-    <script>
-      var iconMail = document.getElementById("iconMail");
-      if (iconMail) {
-        iconMail.addEventListener("click", function (e) {
-          window.location.href = "./inbox.html";
-        });
-      }
-
-      var buttonIcon = document.getElementById("buttonIcon");
-      if (buttonIcon) {
-        buttonIcon.addEventListener("click", function (e) {
-          window.location.href = "./chat.html";
-        });
-      }
-
-      var buttonIcon2 = document.getElementById("buttonIcon2");
-      if (buttonIcon2) {
-        buttonIcon2.addEventListener("click", function (e) {
-          window.location.href = "./inbox.html";
-        });
-      }
-
-      var iconPerson = document.getElementById("iconPerson");
-      if (iconPerson) {
-        iconPerson.addEventListener("click", function (e) {
-          window.location.href = "./profile.html";
-        });
-      }
-
-      var groupIcon = document.getElementById("groupIcon");
-      if (groupIcon) {
-        groupIcon.addEventListener("click", function (e) {
-          window.location.href = "./chat.html";
-        });
-      }
-
-      var download2Image = document.getElementById("download2Image");
-      if (download2Image) {
-        download2Image.addEventListener("click", function (e) {
-          window.location.href = "./index.html";
-        });
-      }
-    </script>
   </body>
 </html>
