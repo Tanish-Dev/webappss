@@ -1,7 +1,7 @@
 .welcome {
   position: absolute;
   top: 195px;
-  left: 37px;
+  left: 25px;
   font-size: var(--font-size-31xl);
   font-weight: 600;
   color: var(--color-black);
@@ -20,7 +20,7 @@
 .field-child {
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: -10px;
   border-radius: var(--br-10xs);
   background-color: var(--color-whitesmoke-100);
   width: 260px;
@@ -29,6 +29,7 @@
   border: 2px;
   font-weight: bold;
   padding-left: 30px;
+  font-size: 16px;
 }
 .field {
   position: absolute;
@@ -84,7 +85,7 @@
 .already-an-existing {
   position: absolute;
   top: 743px;
-  left: 123px;
+  left: 100px;
   font-size: var(--font-size-xs);
   font-weight: 600;
   color: var(--color-steelblue);
@@ -93,7 +94,7 @@
 .login-item {
   position: absolute;
   top: 0px;
-  left: -25px;
+  left: -45px;
   border-radius: var(--br-xl);
   background-color: var(--color-crimson-200);
   width: 232px;
@@ -102,7 +103,7 @@
 .create-account {
   position: absolute;
   top: 9px;
-  left: 22px;
+  left: 0px;
   font-weight: 600;
 }
 .login1 {
@@ -154,7 +155,7 @@
 .d936ea919eb1658402538-1-icon {
   position: absolute;
   top: 105px;
-  left: 40px;
+  left: 25px;
   width: 220px;
   height: 63px;
   object-fit: cover;
@@ -170,4 +171,9 @@
   font-size: var(--font-size-mini);
   color: var(--color-dimgray-100);
   font-family: var(--font-inter);
+}
+@media (min-width: 400px) {
+  .container {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.141);
+  }
 }
