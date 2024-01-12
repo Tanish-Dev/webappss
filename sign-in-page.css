@@ -11,14 +11,11 @@
   max-height: 900px;
   margin: auto;
 }
-.sign-in-page-child {
-  position: absolute;
-  top: 294px;
-  left: 40px;
-  border-radius: var(--br-10xs);
-  background-color: var(--color-whitesmoke-100);
-  width: 309px;
-  height: 54px;
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .field-child {
   position: absolute;
@@ -26,16 +23,12 @@
   left: 0px;
   border-radius: var(--br-10xs);
   background-color: var(--color-whitesmoke-100);
-  width: 309px;
-  height: 54px;
+  width: 260px;
+  height: 100%;
   border-color: black;
   border: 2px;
-}
-.enter-name {
-  position: absolute;
-  top: 18px;
-  left: 24px;
-  font-weight: 600;
+  font-weight: bold;
+  padding-left: 30px;
 }
 .field {
   position: absolute;
