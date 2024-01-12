@@ -24,11 +24,17 @@ body {
   cursor: pointer;
 }
 .login-page-child {
-  position: absolute;
-  top: 434px;
-  left: 40px;
   border-radius: var(--br-10xs);
   background-color: var(--color-whitesmoke-100);
+  width: 276px;
+  height: 54px;
+  border: none;
+  font-weight: 600;
+}
+.email {
+  position: relative;
+  top: 434px;
+  left: 40px;
   width: 309px;
   height: 54px;
 }
@@ -63,11 +69,19 @@ body {
   width: 309px;
   height: 54px;
 }
+.passwords {
+  position: relative;
+  top: 460px;
+  left: 40px;
+}
 .password {
-  position: absolute;
-  top: 530px;
-  left: 64px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-whitesmoke-100);
+  width: 276px;
+  height: 54px;
+  border: none;
   font-weight: 600;
+  padding-left: 30px;
 }
 .login-inner {
   position: absolute;
